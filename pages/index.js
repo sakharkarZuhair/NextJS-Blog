@@ -2,7 +2,7 @@ import Head from "next/head";
 import Script from "next/script";
 import Image from "next/image";
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Blog.module.css";
 
 export default function Home() {
   // const num = 3;
@@ -41,52 +41,6 @@ export default function Home() {
         <p className={styles.description}>
           A blog for hunting coders by a hunting coder
         </p>
-        <div className="blogs">
-          <h2> Popular Blogs </h2>
-          <div>
-            <h3>
-              How to learn{" "}
-              <span className={styles.nextjen} href="#">
-                NextJS{" "}
-              </span>
-              in 2022 by Zuhair
-            </h3>
-            <p> NextJS is ReactJS Framework </p>
-          </div>
-          <div>
-            <h3>
-              How to learn{" "}
-              <span className={styles.nextjen} href="#">
-                NextJS{" "}
-              </span>
-              in 2022 by Zuhair
-            </h3>
-            <p> NextJS is ReactJS Framework </p>
-          </div>
-          <div>
-            <h3>
-              How to learn{" "}
-              <span className={styles.nextjen} href="#">
-                NextJS{" "}
-              </span>
-              in 2022 by Zuhair
-            </h3>
-            <p> NextJS is ReactJS Framework </p>
-          </div>
-          {/* {Array.apply(0, Array(num)).map(function (x, i) {
-                                                return (
-                                                  <>
-                                                    <h1>
-                                                      How to learn
-                                                      <span className={styles.nextjen} href="#">
-                                                        NextJS
-                                                      </span>
-                                                    </h1>
-                                                    <p>NextJS is ReactJS Framework</p>
-                                                  </>
-                                                );
-                                              })} */}
-        </div>
       </main>
     </div>
   );
