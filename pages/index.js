@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Script from "next/script";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Blog.module.css";
 
@@ -31,11 +31,18 @@ export default function Home() {
           {/* <span className="mySpan">Hello</span> */}
         </h1>
         <div className={styles.imageWrap}>
-          <Image
+          {/* <Image
             className={styles.myImg}
             src="/JFIXMt.png"
             width={400}
             height={200}
+          /> */}
+          <img
+            className={styles.myImg}
+            src="/JFIXMt.png"
+            width={400}
+            height={200}
+            alt="comic"
           />
         </div>
         <p className={styles.description}>
