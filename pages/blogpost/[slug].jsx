@@ -11,7 +11,7 @@ const slug = () => {
     <>
       <div className={styles.container}>
         <main className={styles.main}>
-          <h1>Title of the page {slug}</h1>
+          <h1>{slug}</h1>
           <hr />
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
